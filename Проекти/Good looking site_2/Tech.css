@@ -1,0 +1,107 @@
+*{
+    font-family: "Gill Sans", sans-serif;
+    margin:0px;
+    padding:0px;
+}
+.main-title{
+    top:0px;
+    max-width: 100%;
+    position:sticky;
+    background-color:rgb(57, 0, 57);
+}
+.title{
+    text-align:center;
+    padding:20px;
+    text-align:center;
+}
+.title-words{
+    color:white;
+    font-size:200%;
+}
+#menu{
+    font-family:arial, cursive ;
+    width: 100%;
+    background: #000;
+    position: sticky;
+    top: 0;
+    box-shadow:0px 0px 8px white;
+}
+#menu label, #hamburger{
+    display: none; 
+}
+#hamitems{
+    display:flex; 
+}
+#hamitems a{
+    width: 20%;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    transition:1s;
+}
+#hamitems a:hover{
+    background: #c7a8d0;
+    transition:1s;
+    color:black;
+}
+@media screen and (max-width: 768px){
+#menu label{ 
+    display: inline-block; 
+    color: white;
+    background: black;
+    font-style: normal;
+    font-size: 1.2em;
+    padding: 10px;
+}
+#hamitems a{
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    border-top: 1px solid #333;
+}
+#hamitems{ 
+    display:none; 
+}
+#menu input:checked ~ #hamitems{ 
+    display: block;
+}
+}
+.main-page{
+    background-image:url("HAHA.jpg");
+    background-repeat:no-repeat;
+    width:100%;
+}
+.container{
+    display:flex;
+    color:white;
+    text-align:center;
+    width:100%;
+}
+.container-items{
+    margin-top:5%;
+    margin-left:2%;
+    margin-right:2%;
+    margin-bottom:4.5%;
+    background-color:white;
+    color:black;
+    width:80%;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0px 0px 8px white;
+
+}
+.first-item-text-page{
+    font-size:150%;
+    padding:4%;
+    text-align:center;
+    color:black;
+}
+.second-item-text-page{
+    font-size:120%;
+    padding:6%;
+    text-align:center;
+    color:black;
+}
+
+

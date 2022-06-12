@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login form</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div id="ct" class="container">
+        <div class="title">
+            <h1>Login Form</h1>
+        </div>
+        <div class="ct_img">
+            <img class="img"
+                src="https://www.pngfind.com/pngs/b/110-1102775_download-empty-profile-hd-png-download.png">
+        </div>
+        <div>
+            <p style="font-size:110%;">Username</p>
+            <input id="a1" class="txt_ent" placeholder="Enter Username">
+        </div>
+        <div>
+            <p style="font-size:110%;">Password</p>
+            <input type="password" id="b1" class="txt_ent" placeholder="Enter Password">
+        </div>
+        <div>
+            <input onclick="myFunction_2()" class="button" value="Submit" type="button">
+        </div>
+    </div>
+
+    <script>
+        function myFunction_2() {
+
+            let users = ["Denis", "Michail", "Martin", "Pesho", "Gosho", "Ivan", "Sasho", "Tosho", "Acho", "Racho", "Geri", "Greguri", "Ema", "Rapur69", "Gospodin"];
+
+            let password = document.getElementById("b1").value;
+
+            let user_cont = [];
+            user_cont = document.getElementById("a1").value;
+
+            for (let i = 0; i <= users.length; i++) {
+
+                if (user_cont == users[i]) {
+                    document.getElementById("ct").innerHTML = "<p>You logged in your account as</p>" + user_cont;
+                    document.getElementById("ct").innerHTML += "<p>Your password with which you logged in is</p>" + password;
+                }
+            }
+        }
+    </script>
+</body>
+
+</html>

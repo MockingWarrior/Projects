@@ -1,0 +1,346 @@
+/* MySTYLE 1 */
+
+#mai { 
+    background: linear-gradient( 30deg , #ffffff, #dd2d2a);
+}
+.non {
+    display: flex;
+    width:100%;
+    padding-top: 10%;
+}
+.non1 {
+    margin-left: 10%;
+}
+.mar {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-right: 10%;
+}
+
+.mar2 {
+    margin-bottom: 5%;
+    margin-right: 10%;
+    font-size:120%;
+}
+.pic {
+    width:100%;
+    height:90%;
+    display: inline-flex;
+    display: block;
+    border-radius: 50%;
+}
+.btn{
+    margin-right:10%;
+    margin-top:10%;
+    margin-bottom:10%;
+    padding: 10px;
+    color: white;
+    background: #dd2d2a;
+    box-shadow: 0 0px 18px 0 #bdd0fd;
+    transition: all 350ms ease;
+    text-align: center;
+    border-radius: 5px;
+    width: 30%;
+    font-size:140%;
+    position:relative;
+    cursor: pointer;
+}
+.btn:hover {
+    box-shadow: 0 6px 30px 0 #739bfa;
+}
+
+
+
+
+
+/* emi css */
+.emi{
+    background-image: url("blurred-books.jpg");
+    background-size: cover;
+    background-repeat:no-repeat;
+    width:100%;
+    height:100%;
+}
+.emi0{
+    padding-top:15%;
+    display:flex;
+}
+.emi1 {
+    margin-left: 10%;
+}
+.zagl {
+    font-size:300%;
+    font-weight: 600;
+}
+.par {
+    margin-top:10%;
+    margin-bottom:5%;
+    font-size:200%;
+    font-weight: 300;
+}
+.snm {
+    display: block;
+    display: inline-flex;   
+    margin-left:65%;
+    margin-top:65%;
+    width:200%;
+    height:20%;
+}
+
+.buttom-emi {
+    margin-right:10%;
+    margin-top:10%;
+    margin-bottom:50%;
+    padding: 10px;
+    color: white;
+    font-size:140%;
+    background: #dd2d2a;
+    box-shadow: 0 6px 18px 0 #bdd0fd;
+    transition: all 350ms ease;
+    text-align: center;
+    border-radius: 5px;
+    width: 30%;
+    position:relative;
+    cursor: pointer;
+}
+.buttom-emi:hover {
+    box-shadow: 0 6px 30px 0 #739bfa;
+}
+
+
+
+
+
+/* DENIS */
+*{
+    font-family: "Gill Sans", sans-serif;
+    margin:0px;
+    padding:0px;
+}
+.container{
+    padding-top:60px;
+    width:80%;
+    margin:auto;
+    background-color:white;
+    display:flex;
+    padding-bottom:60px;
+}
+.item-container-first{
+    box-shadow:0px 0px 15px grey;
+    border-radius:20px;
+    padding:10px;
+    margin:7px;
+    width:30%;
+    background-color:white;
+}
+.item-container-second{
+    box-shadow:0px 0px 15px grey;
+    border-radius:20px;
+    padding:10px;
+    margin:7px;
+    width:30%;
+    background-color:white;
+}
+.item-container-tirth{
+    box-shadow:0px 0px 15px grey;
+    border-radius:20px;
+    padding:10px;
+    margin:7px;
+    width:30%;
+    background-color:white;
+}
+.icon-subscription{
+    width:30%;
+    padding-left:36%;
+    padding-top:20px;
+    padding-bottom:20px;
+}
+.monthly-card-item-1{
+    text-align:center;
+    font-size:150%;
+    margin:10%;
+}
+.main-theme-item-1{
+    text-align:center;
+    font-size:150%;
+    margin:10%;
+}
+.item-first-options{
+    text-align:center;
+    margin:4%;
+}
+.button {
+    margin-top:22%;
+    margin-bottom:15%;
+    margin-left:40%;
+    padding: 10px;
+    color: white;
+    background: #dd2d2a;
+    box-shadow: 0 6px 18px 0 #bdd0fd;
+    transition: all 350ms ease;
+    text-align: center;
+    border-radius: 5px;
+    width: 20%;
+    position:relative;
+    cursor: pointer;
+}
+.button:hover {
+    box-shadow: 0 6px 30px 0 #739bfa;
+    cursor: pointer;
+}
+.button-second{
+    margin-top:20.5%;
+    margin-bottom:15%;
+    margin-left:40%;
+    padding: 10px;
+    color: white;
+    background: #dd2d2a;
+    box-shadow: 0 6px 18px 0 #bdd0fd;
+    transition: all 350ms ease;
+    text-align: center;
+    border-radius: 5px;
+    width: 20%;
+    position:relative;
+    cursor: pointer;
+}
+.button-second:hover {
+    box-shadow: 0 6px 30px 0 #739bfa;
+    cursor: pointer;
+}
+.button-tirth{
+    margin-top:15%;
+    margin-bottom:15%;
+    margin-left:40%;
+    padding: 10px;
+    color: white;
+    background: #dd2d2a;
+    box-shadow: 0 6px 18px 0 #bdd0fd;
+    transition: all 350ms ease;
+    text-align: center;
+    border-radius: 5px;
+    width: 20%;
+    position:relative;
+    cursor: pointer;
+}
+.button-second:hover {
+    box-shadow: 0 6px 30px 0 #739bfa;
+    cursor: pointer;
+}
+.monthly-card-item-2{
+    text-align:center;
+    font-size:150%;
+    margin:10%;
+}
+.main-theme-item-2{
+    text-align:center;
+    font-size:150%;
+    margin:10%;
+}
+.monthly-card-item-3{
+    text-align:center;
+    font-size:150%;
+    margin:10%;
+}
+.main-theme-item-3{
+    text-align:center;
+    font-size:150%;
+    margin:10%;
+}
+.options{
+    padding-top:8%;
+}
+.options-first-item{
+    padding-top:16%;
+}
+.item-first-options{
+    font-size:110%;
+}
+.item-first-options-1{
+    text-align:center;
+    margin-bottom:4%;
+    font-size:110%;
+    margin:4%;
+}
+
+
+
+
+
+
+
+/* eliza css */
+.eliza-background{
+    background: linear-gradient( 30deg , #ffffff, #dd2d2a);
+    
+}
+.eliza-container{
+    display:flex;
+    padding-left:8%;
+    padding-top:10%;
+}
+.input-container{
+    display:flex;
+}
+.word-type {
+    padding:1%;
+    width: 100%;
+    margin-right:2%;
+    box-shadow: 0 6px 18px 0 #bdd0fd;
+    border-radius:10px;
+}
+.word-type1 {
+    padding:1%;
+    width: 100%;
+    box-shadow: 0 6px 18px 0 #bdd0fd;
+    border-radius:10px;
+}
+.word-type2 {
+    margin-top:3%;
+    width: 99.5%;
+    height: 13%;
+    box-shadow: 0 6px 18px 0 #bdd0fd;
+    border-radius:10px;
+}
+.tema {
+    width: 611px;
+    margin-top: 25px;
+    box-shadow: 0 6px 18px 0 #bdd0fd;
+    border-radius:10px;
+}
+.forma2{
+    margin-left:10%;
+}
+.eliza-btn {
+    margin-left:8%;
+    width: 100px;
+    margin-top: 3%;
+    padding: 10px;
+    color: white;
+    background: #dd2d2a;
+    box-shadow: 0 6px 18px 0 #bdd0fd;
+    transition: all 350ms ease;
+    text-align: center;
+    border-radius: 5px;
+    margin-bottom:10%;
+}
+
+.eliza-btn:hover {
+    box-shadow: 0 6px 30px 0 #739bfa;
+    cursor: pointer;
+}
+.zaglavie{
+    font-size: 140%;
+}
+
+.image-eliza{
+    margin-left:8%;
+    margin-top:4%;
+}
+li{
+    margin-top:2%;
+}
+.eliza-text{
+    width: 80%;
+    font-size: 110%px;
+    margin-top:5%;
+}

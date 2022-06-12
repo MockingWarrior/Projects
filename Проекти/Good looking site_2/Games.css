@@ -1,0 +1,130 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: arial, sans-serif;
+}
+.main-title{
+    top:0px;
+    max-width: 100%;
+    position:sticky;
+    background-color:rgb(57, 0, 57);
+}
+.title{
+    text-align:center;
+    padding:20px;
+    text-align:center;
+}
+.title-words{
+    color:white;
+    font-size:200%;
+}
+#menu{
+    font-family:arial, cursive ;
+    width: 100%;
+    background: #000;
+    position: sticky;
+    top: 0;
+    box-shadow:0px 0px 8px white;
+}
+#menu label, #hamburger{
+    display: none; 
+}
+#hamitems{
+    display:flex; 
+}
+#hamitems a{
+    width: 20%;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    transition:1s;
+}
+#hamitems a:hover{
+    background: #c7a8d0;
+    transition:1s;
+    color:black;
+}
+@media screen and (max-width: 768px){
+#menu label{ 
+    display: inline-block; 
+    color: white;
+    background: black;
+    font-style: normal;
+    font-size: 1.2em;
+    padding: 10px;
+}
+#hamitems a{
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    border-top: 1px solid #333;
+}
+#hamitems{ 
+    display:none; 
+}
+#menu input:checked ~ #hamitems{ 
+    display: block;
+}
+
+}
+.main-page{
+    background-image:url("12616.jpg");
+    background-repeat:no-repeat;
+    width:100%;
+}
+.game-container{
+    display:flex;
+    margin:auto;
+    width:82.8%;
+    color:white;
+}
+.game-container-item{
+    width:100%;
+    display:flex;
+    margin:4%;
+}
+.image{
+    margin-right:3%;
+    width:80%;
+    box-shadow: 0 0px 8px white;
+    color:white;
+    border-radius: 8px;
+}
+.image2{
+    margin-right:3%;
+    width:40%;
+    height:100%;
+    box-shadow: 0 0px 8px white;
+    color:white;
+    border-radius: 8px;
+}
+.text{
+    margin-top:10%;
+    font-size:110%;
+}
+.image1{
+    margin-right:3%;
+    width:40%;
+    height:100%;
+    box-shadow: 0 0px 8px white;
+    color:white;
+    border-radius: 8px;
+}
+.image3{
+    margin-right:3%;
+    width:40%;
+    height:100%;
+    box-shadow: 0 0px 8px white;
+    color:white;
+    border-radius: 8px;
+}
+.image4{
+    margin-right:3%;
+    width:40%;
+    height:100%;
+    box-shadow: 0 0px 8px white;
+    color:white;
+    border-radius: 8px;
+}

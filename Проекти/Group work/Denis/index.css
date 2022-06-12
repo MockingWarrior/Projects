@@ -1,0 +1,107 @@
+*{
+    font-family: "Gill Sans", sans-serif;
+    margin:0px;
+    padding:0px;
+}
+.container{
+    padding-top:30px;
+    width:70%;
+    margin:auto;
+}
+.item-container-first{
+    box-shadow:0px 0px 15px grey;
+    border-radius:20px;
+    padding:10px;
+    margin:7px;
+    float:left;
+    width:30%;
+}
+.item-container-second{
+    box-shadow:0px 0px 15px grey;
+    border-radius:20px;
+    padding:10px;
+    margin:7px;
+    float:left;
+    width:30%;
+}
+.item-container-tirth{
+    box-shadow:0px 0px 15px grey;
+    border-radius:20px;
+    padding:10px;
+    margin:7px;
+    float:left;
+    width:30%;
+}
+.icon-subscription{
+    width:30%;
+    padding-left:36%;
+    padding-top:20px;
+    padding-bottom:20px;
+}
+.monthly-card-item-1{
+    text-align:center;
+    font-size:150%;
+    margin:10%;
+}
+.main-theme-item-1{
+    text-align:center;
+    font-size:150%;
+    margin:10%;
+}
+.item-first-options{
+    text-align:center;
+    margin:4%;
+}
+button {
+    margin-top:15%;
+    margin-bottom:15%;
+    margin-left:40%;
+    padding: 10px;
+    color: white;
+    background: #dd2d2a;
+    box-shadow: 0 6px 18px 0 #bdd0fd;
+    transition: all 350ms ease;
+    text-align: center;
+    border-radius: 5px;
+    width: 20%;
+    position:relative;
+}
+button:hover {
+    box-shadow: 0 6px 30px 0 #739bfa;
+    cursor: pointer;
+}
+.monthly-card-item-2{
+    text-align:center;
+    font-size:150%;
+    margin:10%;
+}
+.main-theme-item-2{
+    text-align:center;
+    font-size:150%;
+    margin:10%;
+}
+.monthly-card-item-3{
+    text-align:center;
+    font-size:150%;
+    margin:10%;
+}
+.main-theme-item-3{
+    text-align:center;
+    font-size:150%;
+    margin:10%;
+}
+.options{
+    padding-top:8%;
+}
+.options-first-item{
+    padding-top:16%;
+}
+.item-first-options{
+    font-size:110%;
+}
+.item-first-options-1{
+    text-align:center;
+    margin-bottom:4%;
+    font-size:110%;
+    margin:4%;
+}
